@@ -1,16 +1,11 @@
 import React from "react";
 import { Button, Navbar } from "flowbite-react";
 
-
 const Header = () => {
   return (
     <Navbar fluid rounded>
       <Navbar.Brand href="/">
-        <img
-          src="/logo.png"
-          className=" mr-3 h-6 sm:h-9"
-          alt="logo"
-        />
+        <img src="/logo.png" className=" mr-3 h-6 sm:h-9" alt="logo" />
         <span className="self-center font-Primary whitespace-nowrap text-2xl text-green-300 font-extrabold dark:text-white">
           KeyRapid
         </span>
