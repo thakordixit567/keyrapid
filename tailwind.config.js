@@ -13,6 +13,7 @@ export default {
     extend: {},
     fontFamily: {
       'Primary' : ['Comfortaa'],
+      'Textfont' : ['Kanit'],
     }
   },
   plugins: [
