@@ -5,7 +5,7 @@ import Logo from '/logo.png'
 
 const FooterPro = () => {
   return (
-    <Footer container className=' bg-blue-200'>
+    <Footer container className=' bg-gray-200 mt-12'>
     <div className="w-full ">
       <div className="grid w-full justify-between sm:flex sm:justify-between md:flex md:grid-cols-1">
         <div className=' text-green-400'>

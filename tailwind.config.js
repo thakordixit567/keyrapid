@@ -28,6 +28,7 @@ export default {
     fontFamily: {
       'Primary' : ['Comfortaa'],
       'Textfont' : ['Kanit'],
+      'TimeFont' : ['Proza Libre'],
     }
   },
   plugins: [

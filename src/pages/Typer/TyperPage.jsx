@@ -1,5 +1,9 @@
 import React from "react";
 import TextDisplay from "./TextDisplay";
+import TypingSpace from './TypingSpace'
+import Timer from "./Timer";
+import { Button } from "flowbite-react";
+
 
 const TyperPage = () => {
   return (
@@ -8,6 +12,17 @@ const TyperPage = () => {
         KeyRapid -<span className=" text-black"> Typing Master</span>
       </h1>
       <TextDisplay/>
+      <TypingSpace/>
+      <Timer/>
+
+      <div className=" flex gap-5">
+         <Button color='blue' className=" font-TimeFont">
+            Submit Test
+         </Button>
+         <Button color='failure' className=" font-TimeFont">
+            Try Again
+         </Button>
+      </div>
     </div>
   );
 };
