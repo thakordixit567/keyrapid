@@ -1,9 +1,15 @@
-import React from 'react'
+import React from "react";
+import TextDisplay from "./TextDisplay";
 
 const TyperPage = () => {
   return (
-    <div>TyperPage</div>
-  )
-}
+    <div className=" mt-8 space-y-4 px-4">
+      <h1 className="animate-text font-Primary font-extrabold bg-gradient-to-r from-teal-500 via-purple-500 to-orange-500 bg-clip-text text-transparent text-3xl ">
+        KeyRapid -<span className=" text-black"> Typing Master</span>
+      </h1>
+      <TextDisplay/>
+    </div>
+  );
+};
 
-export default TyperPage
+export default TyperPage;
