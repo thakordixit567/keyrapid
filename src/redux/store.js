@@ -1,5 +1,5 @@
 import { configureStore } from '@reduxjs/toolkit'
-import typingTestReducer from './fetures/TypingTestereSlice'
+import typingTestReducer from './features/typingTestSlice'
 
 export const store = configureStore({
   reducer: {

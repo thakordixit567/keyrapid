@@ -14,7 +14,7 @@ const FooterPro = () => {
             src={Logo}
             alt="KeyRapid"
             name="  KeyRapid"
-            className='font-Primary text-green-400'
+            className='font-Primary font-bold text-green-400'
           />
         </div>
         <div className="grid grid-cols-2 gap-8 sm:mt-4 sm:grid-cols-3 sm:gap-6">

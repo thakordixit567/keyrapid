@@ -1,12 +1,8 @@
-import React from 'react'
 import { Button, Timeline } from "flowbite-react";
 import { HiArrowNarrowRight } from "react-icons/hi";
-
-import '../App.css'
-
-const Working = () => {
+const WorkingTimeline = () => {
   return (
-   <div  className=' mt-8 px-4'>
+    <div  className=' mt-8 px-4'>
    
     
    <h1 className="animate-text font-Primary font-extrabold bg-gradient-to-r from-teal-500 via-purple-500 to-orange-500 bg-clip-text text-transparent text-4xl ">
@@ -78,7 +74,8 @@ const Working = () => {
    </Timeline.Item>
  </Timeline>
    </div>
+
   )
 }
 
-export default Working
+export default WorkingTimeline

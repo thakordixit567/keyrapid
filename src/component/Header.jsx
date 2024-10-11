@@ -1,19 +1,18 @@
-import React from "react";
 import { Button, Navbar } from "flowbite-react";
-import { Link } from "react-router-dom";
+import { NavLink } from "react-router-dom";
+import '../App.css'
 
 const Header = () => {
   return (
     <Navbar fluid rounded>
       <Navbar.Brand href="/">
-        <img src="/logo.png" className=" mr-3 h-6 sm:h-9" alt="logo" />
-        <span className="self-center font-Primary whitespace-nowrap text-2xl text-green-300 font-extrabold dark:text-white">
-          KeyRapid
-        </span>
+        <img src="/logo.png" className="mr-3 h-6 sm:h-9" alt="Flowbite React Logo" />
+        <span className=" font-Primary font-bold self-center whitespace-nowrap text-3xl text-green-300 ">KeyRapid</span>
       </Navbar.Brand>
       <div className="flex md:order-2">
-      <Link to="/typing-speed-test"><Button>Get started</Button></Link>
-        
+        <NavLink to="/typing-speed-test">
+        <Button>Get started</Button>
+        </NavLink> 
         <Navbar.Toggle />
       </div>
       <Navbar.Collapse>
@@ -26,7 +25,7 @@ const Header = () => {
         <Navbar.Link href="#">Contact</Navbar.Link>
       </Navbar.Collapse>
     </Navbar>
-  );
-};
+  )
+}
 
-export default Header;
+export default Header
