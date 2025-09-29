@@ -6,14 +6,18 @@
 
 This project serves as a practical demonstration of building a full-featured single-page application (SPA) using modern front-end technologies.
 
+---
+
 ## ✨ Features
 
 * **Real-time Metrics:** Displays **Words Per Minute (WPM)** and **Accuracy (%)** updated live as the user types.
 * **Dynamic Text Generation:** Randomly selects from a built-in library of texts for varied test content.
 * **Error Highlighting:** Visually indicates incorrect characters as they are typed, providing immediate feedback.
-* **Test Customization:** Options for different test durations (e.g., 30s, 60s) or word counts. (Future or Current Feature)
+* **Test Customization:** Options for different test durations (e.g., 30s, 60s) or word counts.
 * **Result Summary:** Presents a comprehensive summary screen upon test completion, including final WPM, accuracy, and error count.
 * **Responsive Design:** Optimized for seamless use across desktop, tablet, and mobile devices using modern **CSS**.
+
+---
 
 ## 💻 Technologies Used
 
@@ -24,6 +28,8 @@ This project serves as a practical demonstration of building a full-featured sin
 | **HTML5** | Provides the foundational structure and semantics of the web page. |
 | **CSS3** | Used for styling, including layout, animations, and ensuring a visually appealing and responsive design. |
 
+---
+
 ## 🚀 Getting Started
 
 Follow these instructions to get a copy of the project up and running on your local machine for development and testing purposes.
@@ -32,8 +38,8 @@ Follow these instructions to get a copy of the project up and running on your lo
 
 You will need the following software installed on your computer:
 
-* Node.js (LTS version recommended)
-* npm (Node Package Manager) or yarn
+* **Node.js** (LTS version recommended)
+* **npm** (Node Package Manager) or **yarn**
 
 ### Installation
 
@@ -59,11 +65,17 @@ You will need the following software installed on your computer:
 
 The application should now be running in your browser at `http://localhost:3000`.
 
+---
+
 ## 🖼️ Showcase
 
-
-
 A screenshot of the application demonstrating the real-time WPM calculation and error highlighting.
+
+
+
+Try the live application here: **[https://keyrapid.vercel.app/](https://keyrapid.vercel.app/)**
+
+---
 
 ## 🤝 Contributing
 
@@ -74,4 +86,3 @@ Contributions are what make the open-source community such an amazing place to l
 3.  Commit your Changes (`git commit -m 'Add some AmazingFeature'`)
 4.  Push to the Branch (`git push origin feature/AmazingFeature`)
 5.  Open a Pull Request
-
