@@ -5,6 +5,7 @@
 **KeyRapid** is a sleek, modern, and highly responsive web application designed to help users accurately measure and improve their typing speed and accuracy. Built primarily with **React.js**, the application provides a dynamic and engaging user experience for taking typing tests of various lengths and complexities.
 
 This project serves as a practical demonstration of building a full-featured single-page application (SPA) using modern front-end technologies.
+![Demo Image](https://raw.githubusercontent.com/thakordixit567/keyrapid/refs/heads/master/Screenshot%202025-09-29%20104306.png)
 
 ---
 
